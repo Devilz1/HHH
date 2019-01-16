@@ -1,0 +1,188 @@
+@font-face {
+  font-family: Myriad-Pro-condensed;
+  src: url(../font/Myriad-Pro-Condensed.ttf); }
+
+/* Specification */
+* {
+  font-family: "Myriad-Pro-condensed"; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #008fbf; }
+
+.color-text-1 {
+  color: #11adc4; }
+
+.color-text-2 {
+  color: #33b9cd; }
+
+/* Header */
+header img {
+  width: 100%; }
+
+header .navbar {
+  background: #04b1dd;
+  background: -webkit-linear-gradient(top, #04b1dd 0%, #0194c4 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#04b1dd), to(#0194c4));
+  background: -o-linear-gradient(top, #04b1dd 0%, #0194c4 100%);
+  background: linear-gradient(to bottom, #04b1dd 0%, #0194c4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04b1dd', endColorstr='#0194c4',GradientType=0 );
+  padding: 0;
+  width: 100%; }
+
+header .navbar-nav li {
+  width: 100%;
+  font-size: 1.2em; }
+
+.phone-number {
+  text-align: right;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  padding-right: 20px; }
+
+.phone-number p {
+  margin-right: 6.1em; }
+
+.phone-number div span:nth-child(1) {
+  font-size: 26px;
+  margin-top: 9px; }
+
+.phone-number div span:nth-child(2) {
+  font-size: 48px; }
+
+/* Amenities */
+.amenities {
+  margin-top: 55px; }
+
+.amenities-img, .amenities-description {
+  width: 100%;
+  color: #4e4e4e; }
+
+.amenities-description p {
+  font-size: 0.7em;
+  font-family: Tahoma; }
+
+.amenities-description span {
+  font-size: 1.1em; }
+
+.amenities-description a {
+  text-decoration: underline;
+  font-family: Tahoma;
+  color: #03a9d7;
+  font-size: 0.75em; }
+
+/* Description-company */
+.description-company {
+  margin-top: 50px; }
+
+.description-company aside {
+  font-size: 0.8em; }
+
+.description-company p {
+  font-family: "Myriad Pro" !important; }
+
+.description-company aside div a, .description-company aside a {
+  color: #00a7c0;
+  font-family: "Myriad Pro" !important; }
+
+.description-company aside div span {
+  color: #2a2a2a;
+  font-family: "Myriad Pro" !important; }
+
+.description-company-desc {
+  border-top: 1px dashed rgba(104, 104, 104, 0.4);
+  border-bottom: 1px dashed rgba(104, 104, 104, 0.4);
+  font-family: "Myriad Pro" !important;
+  font-size: 0.9em;
+  color: #797979;
+  line-height: 1.8em; }
+
+.description-company ul {
+  list-style-type: none;
+  color: #000; }
+
+.description-company ul li {
+  text-indent: -5px;
+  color: #11adc4; }
+
+.description-company ul > li:before {
+  content: "- ";
+  text-indent: -5px; }
+
+.description-company .container-fluid {
+  border-bottom: 1px dashed rgba(104, 104, 104, 0.4); }
+
+/* Slider */
+.autoplay-slider a {
+  font-family: "Myriad Pro" !important; }
+
+.autoplay-slider em {
+  font-family: "Myriad Pro" !important;
+  font-size: 0.9em;
+  color: rgba(111, 111, 111, 0.8); }
+
+.autoplay-slider span {
+  font-family: "Myriad Pro" !important;
+  font-size: 1em;
+  font-weight: 500;
+  font-style: normal;
+  color: #000; }
+
+.autoplay-slider button {
+  border: none;
+  background: transparent;
+  color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none !important;
+  cursor: pointer; }
+
+.autoplay-slider button:first-child {
+  background-image: url("../img/prev.png"); }
+
+.autoplay-slider button:last-child {
+  background-image: url("../img/next.png"); }
+
+.slider p {
+  margin: 10px 0 30px;
+  line-height: 1.8em;
+  color: #797979;
+  font-family: "Myriad Pro" !important; }
+
+.slider .container {
+  border-bottom: 1px dashed rgba(104, 104, 104, 0.4); }
+
+/* Footer */
+footer {
+  color: #959898; }
+
+footer a {
+  color: #33b9cd;
+  text-decoration: underline;
+  font-family: "Myriad Pro"; }
+
+footer .telephone-number {
+  color: #33b9cd;
+  font-size: 22px;
+  font-family: Myriad-Pro-condensed; }
+
+footer .navbar {
+  background: #fff;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+
+footer .nav-link {
+  color: #00a7c0 !important;
+  font-size: 0.9em;
+  font-family: "Myriad Pro" !important; }
